@@ -52,6 +52,8 @@ btn.addEventListener("click", () => {
       window.open("https://www.discord.com/", "_blank");
     } else if (command.includes("open pornhub")) {
       Speak("Go and pray (Astagfirullah).");
+    } else if (command.includes("can you be my girlfriend")) {
+      Speak("niklll louray!!!");
     } 
 
     // General Queries
