@@ -118,7 +118,7 @@ btn.addEventListener("click", () => {
   
   setTimeout(() => {
     recognition.start();
-  }, 2500);
+  }, 2400);
 
   recognition.onresult = (event) => {
     const command = event.results[0][0].transcript.toLowerCase();
